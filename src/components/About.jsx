@@ -31,14 +31,15 @@ const About = () => {
               <img src="./images/code-icon.png" alt="" className="w-7 mt-3" />
               <h3 className="my-4 font-semibold text-gray-700">Languages</h3>
               <p className="text-gray-600 text-sm">
-                HTML, CSS, JavaScript, Python, C++
+                HTML, CSS, React, TailwindCSS, JavaScript, Typescript, Python,C
+                , C++
               </p>
             </li>
             <li className="border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-blue-200 hover:-translate-y-1 duration-500 hover:shadow-[4px_4px_0_#000]">
               <img src="./images/edu-icon.png" alt="" className="w-7 mt-3" />
               <h3 className="my-4 font-semibold text-gray-700">Education</h3>
               <p className="text-gray-600 text-sm">
-                BTech in Electrical, Electronics and Communication
+                Bachelor in Computer Science with Specialisation in AI and IOT
               </p>
             </li>
             <li className="border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-pink-200 hover:-translate-y-1 duration-500 hover:shadow-[4px_4px_0_#000]">
@@ -49,7 +50,7 @@ const About = () => {
               />
               <h3 className="my-4 font-semibold text-gray-700">Projects</h3>
               <p className="text-gray-600 text-sm">
-                Built more than 4 projects
+                Built a ToDo List application using React and TailwindCSS.
               </p>
             </li>
           </ul>

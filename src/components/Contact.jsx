@@ -6,7 +6,7 @@ const Contact = () => {
       id="contact"
       className="w-full px-[12%] py-10 bg-[url('./images/footer-bg-color.png')] bg-no-repeat bg-[length:905_auto] bg-center"
     >
-      <h4 className="text-center mb-2 text-lg font-Ovo">Connect with me</h4>
+      <h4 className="text-center mb-2 text-3xl font-Ovo">Connect with me</h4>
       <h2 className="text-center text-5xl font-Ovo"></h2>
       <p className="text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo">
         I'd love to hear from you! If you have any questions, comments or
@@ -28,14 +28,14 @@ const Contact = () => {
           <input
             type="text"
             placeholder="Enter your name"
-            className="flex-1 p-3 outline-none border-[0.5px] border-gray-400 rounded-md bg-white"
+            className="flex-1 p-3 outline-none border-[0.5px] border-gray-400 rounded-md bg-gray-700"
             required
             name="name"
           />
           <input
             type="email"
             placeholder="Enter your email"
-            className="flex-1 p-3 outline-none border-[0.5px] border-gray-400 rounded-md bg-white"
+            className="flex-1 p-3 outline-none border-[0.5px] border-gray-400 rounded-md bg-gray-700"
             required
             name="email"
           />
@@ -43,13 +43,12 @@ const Contact = () => {
         <textarea
           rows="6"
           placeholder="Enter your message"
-          className="w-full p-4 outline-none border-[0.5px] border-gray-400 rounded-md bg-white mb-6"
+          className="w-full p-4 outline-none border-[0.5px] border-gray-400 rounded-md bg-gray-700 mb-6"
           required
           name="message"
         ></textarea>
-        <button className="py-3 px-8 w-max flex items-center justify-between gap-2 bg-black/80 text-white rounded-full mx-auto hover:bg-black duration-500">
+        <button className="py-3 px-8 w-max flex items-center justify-between gap-2 bg-black/80 text-white rounded-full mx-auto hover:bg-gray-500 duration-500 hover:shadow-2xl ">
           Submit now
-          <img src="./images/right-arrow-white.png" alt="" className="w-4" />
         </button>
       </form>
     </div>
