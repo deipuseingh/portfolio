@@ -1,6 +1,6 @@
 import React from "react";
 import mail from "../assets/image/mail.png";
-import deepu from "../assets/image/deepu.png";
+import deepu from "../assets/image/deepu.jpg";
 
 const Footer = () => {
   return (
