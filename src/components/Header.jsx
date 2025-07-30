@@ -7,8 +7,7 @@ const Header = () => {
   return (
     <div className="w-11/12 max-w-2xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-4">
       <h3 className="flex items-end gap-2 text-xl md:text-3xl md-3 font-Ovo">
-        Hi! I'm Chingangbam Deepu Singh{" "}
-        <img src="./images/hand-icon.png" alt="" className="w-6" />
+        Hi! I'm Chingangbam Deepu Singh
       </h3>
       <SplitText
         text="Fullstack web developer based in India."
@@ -36,7 +35,6 @@ const Header = () => {
           className="px-10 py-3 border rounded-full bg-gradient-to-r from-[#b820e6] to-[#da7d20] text-white flex items-center gap-2"
         >
           Contact me{" "}
-          {/* <img src="./images/right-arrow-white.png" alt="" className="w-4" /> */}
         </a>
 
         <a
@@ -45,7 +43,6 @@ const Header = () => {
           className="px-10 py-3  rounded-full border-gray-500 flex items-center gap-2 bg-gray-800 hover:bg-gray-500"
         >
           My resume{" "}
-          {/* <img src="./images/download-icon.png" alt="" className="w-4" /> */}
         </a>
       </div>
     </div>
