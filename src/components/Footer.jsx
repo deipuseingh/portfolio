@@ -1,4 +1,5 @@
 import React from "react";
+import mail from "../assets/image/mail.png";
 
 const Footer = () => {
   return (
@@ -6,7 +7,7 @@ const Footer = () => {
       <div className="text-center">
         <img src="./images/rake.png" alt="" className="w-36 mx-auto mb-2" />
         <div className="w-max flex items-center gap-2 mx-auto">
-          <img src="./images/mail_icon.png" alt="" className="w-4" />
+          <img src={mail} alt="" className="w-4" />
           officialchdeepusingh@gmail.com
         </div>
       </div>

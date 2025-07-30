@@ -4,6 +4,9 @@ import canva from "../assets/image/canva.png";
 import codeblocks from "../assets/image/codeblocks.png";
 import git from "../assets/image/git.png";
 import vs from "../assets/image/vs.png";
+import lan from "../assets/image/lan.png";
+import edu from "../assets/image/edu.png";
+import pro from "../assets/image/pro.png";
 
 const About = () => {
   return (
@@ -28,7 +31,7 @@ const About = () => {
 
           <ul className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl">
             <li className="border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-green-200 hover:-translate-y-1 duration-500 hover:shadow-[4px_4px_0_#000]">
-              <img src="./images/code-icon.png" alt="" className="w-7 mt-3" />
+              <img src={lan} alt="" className="w-7 mt-3" />
               <h3 className="my-4 font-semibold text-gray-700">Languages</h3>
               <p className="text-gray-600 text-sm">
                 HTML, CSS, React, TailwindCSS, JavaScript, Typescript, Python,C
@@ -36,18 +39,14 @@ const About = () => {
               </p>
             </li>
             <li className="border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-blue-200 hover:-translate-y-1 duration-500 hover:shadow-[4px_4px_0_#000]">
-              <img src="./images/edu-icon.png" alt="" className="w-7 mt-3" />
+              <img src={edu} alt="" className="w-7 mt-3" />
               <h3 className="my-4 font-semibold text-gray-700">Education</h3>
               <p className="text-gray-600 text-sm">
                 Bachelor in Computer Science with Specialisation in AI and IOT
               </p>
             </li>
             <li className="border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-pink-200 hover:-translate-y-1 duration-500 hover:shadow-[4px_4px_0_#000]">
-              <img
-                src="./images/project-icon.png"
-                alt=""
-                className="w-7 mt-3"
-              />
+              <img src={pro} alt="" className="w-7 mt-3" />
               <h3 className="my-4 font-semibold text-gray-700">Projects</h3>
               <p className="text-gray-600 text-sm">
                 Built a ToDo List application using React and TailwindCSS.
