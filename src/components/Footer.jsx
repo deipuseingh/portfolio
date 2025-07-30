@@ -15,18 +15,22 @@ const Footer = () => {
         <p>© 2025 Deepu Singh. All rights reserved.</p>
         <ul className="flex items-center gap-10 justify-center mt-4 sm:mt-0">
           <li>
-            <a href="https://www.instagram.com/dmitrii_ivan01/">Instagram</a>
+            <a href="https://www.instagram.com/deipu_seingh?igsh=eTN6cXlyNHR6b2Yz&utm_source=qr">
+              Instagram
+            </a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/rakesh-r-219390305/">
+            <a href="https://www.linkedin.com/in/chdeepusingh?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">
               LinkedIn
             </a>
           </li>
           <li>
-            <a href="https://x.com/rakeshaps8866">Twitter</a>
+            <a href="https://www.facebook.com/share/16ndZwThq8/?mibextid=wwXIfr">
+              Facebook
+            </a>
           </li>
           <li>
-            <a href="https://github.com/Programmer-Rakesh">GitHub</a>
+            <a href="https://github.com/deipuseingh">GitHub</a>
           </li>
         </ul>
       </div>

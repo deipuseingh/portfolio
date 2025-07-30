@@ -2,6 +2,8 @@ import deepu from "../assets/image/deepu.jpg";
 import ana from "../assets/image/ana.png";
 import canva from "../assets/image/canva.png";
 import codeblocks from "../assets/image/codeblocks.png";
+import git from "../assets/image/git.png";
+import vs from "../assets/image/vs.png";
 
 const About = () => {
   return (
@@ -16,19 +18,6 @@ const About = () => {
             alt="Chingangbam Deepu Singh"
             className="w-64 sm:w-80 rounded-3xl max-w-none"
           />
-
-          {/* <div className="bg-white w-1/2 aspect-square absolute right-0 bottom-0 rounded-full translate-x-1/4 translate-y-1/3 shadow-[0_4px_55px_rgba(149,0,162,0.15)] flex items-center justify-center">
-            <img
-              src="./images/circular-text.png"
-              alt=""
-              className="w-full animate-spin_slow"
-            />
-            <img
-              src="./images/dev-icon.png"
-              alt=""
-              className="w-1/4 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
-            />
-          </div> */}
         </div>
         <div className="flex-1">
           <p className="mb-10 max-w-2xl">
@@ -71,16 +60,16 @@ const About = () => {
               <img src={ana} alt="" className="w-11 sm:w-13" />
             </li>
             <li className="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
-              <img src={canva} alt="" className="w-5 sm:w-7" />
+              <img src={canva} alt="" className="w-11 sm:w-13" />
             </li>
             <li className="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
-              <img src={codeblocks} alt="" className="w-5 sm:w-7" />
+              <img src={codeblocks} alt="" className="w-11 sm:w-13" />
             </li>
             <li className="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
-              <img src="./images/firebase.png" alt="" className="w-5 sm:w-7" />
+              <img src={git} alt="" className="w-11 sm:w-13" />
             </li>
             <li className="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
-              <img src="./images/soli_logo.png" alt="" className="w-5 sm:w-7" />
+              <img src={vs} alt="" className="w-11 sm:w-13" />
             </li>
           </ul>
         </div>
