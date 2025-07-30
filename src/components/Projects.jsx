@@ -66,7 +66,7 @@ const Projects = () => {
         <div className=" bg-black bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group">
           <img src={website}></img>
           <a
-            href="https://www.youtube.com"
+            href="https://todolist-sigma-lac.vercel.app/"
             target="_blank"
             className="absolute inset-0 z-10"
           ></a>
