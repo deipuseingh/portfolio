@@ -36,7 +36,7 @@ const Header = () => {
           className="px-10 py-3 border rounded-full bg-gradient-to-r from-[#b820e6] to-[#da7d20] text-white flex items-center gap-2"
         >
           Contact me{" "}
-          <img src="./images/right-arrow-white.png" alt="" className="w-4" />
+          {/* <img src="./images/right-arrow-white.png" alt="" className="w-4" /> */}
         </a>
 
         <a
@@ -45,7 +45,7 @@ const Header = () => {
           className="px-10 py-3  rounded-full border-gray-500 flex items-center gap-2 bg-gray-800 hover:bg-gray-500"
         >
           My resume{" "}
-          <img src="./images/download-icon.png" alt="" className="w-4" />
+          {/* <img src="./images/download-icon.png" alt="" className="w-4" /> */}
         </a>
       </div>
     </div>
